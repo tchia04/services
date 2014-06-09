@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true">
+	<logging>
+	<log type="junit" target="./tests/logfile.xml" logIncompleteSkipped="false"/>
+	</logging>
+    <testsuites>
+        <testsuite name="Application Test Suite">
+            <directory suffix=".php">./tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
