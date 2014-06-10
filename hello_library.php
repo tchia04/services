@@ -1,13 +1,19 @@
 <?php
 
-class BasicMath {
+class HelloWorld {
 
-	function addStuff() {
-		
+	public $name = 'foo';
+
+	function sayHi() {
+		print "Hello " . $this->getName();
 	}
 
-	function subtractStuff() {
-		
+	function getName() {
+		return $this->name;
+	}
+
+	function setName($name) {
+		$this->name = $name;
 	}
 	
 }
