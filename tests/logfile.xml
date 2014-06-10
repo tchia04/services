@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="Application Test Suite" tests="1" assertions="1" failures="0" errors="0" time="0.000000">
-    <testsuite name="HelloTest" file="/vagrant/HelloWorldServices/services/tests/helloTests.php" tests="1" assertions="1" failures="0" errors="0" time="0.000000">
-      <testcase name="testDefaultNameIsSet" class="HelloTest" file="/vagrant/HelloWorldServices/services/tests/helloTests.php" line="9" assertions="1" time="0.000000"/>
-    </testsuite>
-  </testsuite>
-</testsuites>
