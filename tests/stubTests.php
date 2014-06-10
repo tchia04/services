@@ -11,7 +11,7 @@ class StubTest extends \PHPUnit_Framework_TestCase
         // Configure the stub.
         $stub->expects($this->any())
              ->method('getName')
-             ->will($this->returnValue('foo'));
+             ->will($this->returnValue('bar'));
 
         // Calling $stub->doSomething() will now return
         // 'foo'.
