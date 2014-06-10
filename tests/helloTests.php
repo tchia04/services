@@ -8,10 +8,10 @@ class HelloTest extends \PHPUnit_Framework_TestCase
     
     public function testDefaultNameIsSet()
     {
-        // Arrange
+        // create new
         $a = new HelloWorld();
 
-        // Assert
+        // Assert our default name is there
         $this->assertEquals("foo", $a->getName());
     }
 
