@@ -1,7 +1,7 @@
 <?php
 
-require_once("hello_library.php");
-require_once("math_library.php");
+require_once("lib/hello_library.php");
+require_once("lib/math_library.php");
 
 ?>
 
