@@ -27,11 +27,13 @@ server 'localhost', user: 'deployer', roles: %w{app}
 #
 # Global options
 # --------------
-#  set :ssh_options, {
-#    keys: %w(/home/rlisowski/.ssh/id_rsa),
-#    forward_agent: false,
-#    auth_methods: %w(password)
-#  }
+set :ssh_options, {
+   keys: %w(/home/deployer/.ssh/id_rsa),
+   forward_agent: false,
+   auth_methods: %w(password),
+   password: 'deployer',
+   user: 'deployer',
+}
 #
 # And/or per server (overrides global)
 # ------------------------------------
