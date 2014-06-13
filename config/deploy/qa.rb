@@ -18,7 +18,7 @@ role :app, %w{deployer@localhost}
 # server 'example.com', user: 'deploy', roles: %w{web app}, my_property: :my_value
 
 server 'localhost', user: 'deployer', roles: %w{app}
-set :deploy_to, "/var/www/production/services"
+set :deploy_to, "/var/www/qa/services"
 
 # Custom SSH Options
 # ==================
