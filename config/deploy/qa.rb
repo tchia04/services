@@ -31,8 +31,8 @@ set :ssh_options, {
    keys: %w(/home/deployer/.ssh/id_rsa),
    forward_agent: false,
    auth_methods: %w(password),
-   password: 'deployer',
    user: 'deployer',
+   password: 'deployer',
 }
 #
 # And/or per server (overrides global)
