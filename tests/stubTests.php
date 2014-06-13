@@ -15,7 +15,7 @@ class StubTest extends \PHPUnit_Framework_TestCase
 
         // Calling $stub->doSomething() will now return
         // 'foo'.
-        $this->assertEquals('foo', $stub->getName());
+        $this->assertEquals('ifoo', $stub->getName());
     }
 }
 ?>
