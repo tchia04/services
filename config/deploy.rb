@@ -2,13 +2,13 @@
 lock '3.2.1'
 
 set :application, 'services'
-set :repo_url, 'git@localhost:workshop/services'
+set :repo_url, 'git@localhost:vagrant/services'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/var/www/#{stage}/#{application}'
+# set :deploy_to, '/var/www/#{stage}/#{application}'
 
 # Default value for :scm is :git
 # set :scm, :git
