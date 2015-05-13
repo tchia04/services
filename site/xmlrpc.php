@@ -9,7 +9,7 @@ $request_xml = file_get_contents("php://input");
 
 //create a basic demo method for the server to use
 function say_hello($method_name, $args) {
-    return "Hello ".$args[0];
+    return "Hi There ".$args[0];
 }
 
 //create the XMLRPC server
