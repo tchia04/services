@@ -1,3 +1,5 @@
 This file is here so small changes will trigger a pipeline
 
 This is a new line of text
+
+test git triggering gocd pipeline
